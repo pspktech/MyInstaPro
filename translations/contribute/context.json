@@ -761,9 +761,8 @@
     },
     "fonts.default": {
       "kind": "strings",
-      "context": "fonts",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
       "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontLabels.java",
         "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
       ],
       "placeholders": {}
@@ -1176,7 +1175,7 @@
     },
     "fonts.error.use_emoji_import": {
       "kind": "strings",
-      "context": "fonts / error",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontErrors.java"
       ],
@@ -1283,7 +1282,7 @@
     },
     "fonts.introduction": {
       "kind": "strings",
-      "context": "fonts",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
       ],
@@ -10499,6 +10498,274 @@
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
       ],
+      "placeholders": {}
+    },
+    "fonts.import_any": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.import_any_description": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.import_destination": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.load_error.emoji_data": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.load_error.integrity": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.load_error.missing": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.load_error.unavailable": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.load_error.unsupported": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.loaded_fallback": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {
+        "reason": "string"
+      }
+    },
+    "fonts.loaded_inherited": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {
+        "font": "string"
+      }
+    },
+    "fonts.loaded_pending": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {
+        "font": "string"
+      }
+    },
+    "fonts.reimport_notice": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.repair": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.story_native": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.unavailable_choice": {
+      "kind": "strings",
+      "context": "A saved font id is no longer present in the library. Do not label this choice as the Instagram default.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontLabels.java"
+      ],
+      "placeholders": {}
+    },
+    "media.download.dimensions_bitrate": {
+      "kind": "strings",
+      "context": "media / download",
+      "sources": [],
+      "placeholders": {
+        "width": "number",
+        "height": "number",
+        "bitrate": "number"
+      }
+    },
+    "settings.fullscreen_home.summary": {
+      "kind": "strings",
+      "context": "settings / fullscreen_home",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.fullscreen_home.title": {
+      "kind": "strings",
+      "context": "settings / fullscreen_home",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.fullscreen_reels.summary": {
+      "kind": "strings",
+      "context": "settings / fullscreen_reels",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.fullscreen_reels.title": {
+      "kind": "strings",
+      "context": "settings / fullscreen_reels",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_discover_follow_lists.summary": {
+      "kind": "strings",
+      "context": "settings / hide_discover_follow_lists",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_discover_follow_lists.title": {
+      "kind": "strings",
+      "context": "settings / hide_discover_follow_lists",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_discover_reels.summary": {
+      "kind": "strings",
+      "context": "settings / hide_discover_reels",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_discover_reels.title": {
+      "kind": "strings",
+      "context": "settings / hide_discover_reels",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_discover_search.summary": {
+      "kind": "strings",
+      "context": "settings / hide_discover_search",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_discover_search.title": {
+      "kind": "strings",
+      "context": "settings / hide_discover_search",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_discover_stories.summary": {
+      "kind": "strings",
+      "context": "settings / hide_discover_stories",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_discover_stories.title": {
+      "kind": "strings",
+      "context": "settings / hide_discover_stories",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.story_upload_quality.summary": {
+      "kind": "strings",
+      "context": "settings / story_upload_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.story_upload_quality.title": {
+      "kind": "strings",
+      "context": "settings / story_upload_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.video_playback_quality.summary": {
+      "kind": "strings",
+      "context": "settings / video_playback_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.video_playback_quality.title": {
+      "kind": "strings",
+      "context": "settings / video_playback_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.video_quality.1080p": {
+      "kind": "strings",
+      "context": "settings / video_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.video_quality.480p": {
+      "kind": "strings",
+      "context": "settings / video_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.video_quality.720p": {
+      "kind": "strings",
+      "context": "settings / video_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.video_quality.auto": {
+      "kind": "strings",
+      "context": "settings / video_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.video_quality.highest": {
+      "kind": "strings",
+      "context": "settings / video_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.video_quality.lowest": {
+      "kind": "strings",
+      "context": "settings / video_quality",
+      "sources": [],
       "placeholders": {}
     }
   }
